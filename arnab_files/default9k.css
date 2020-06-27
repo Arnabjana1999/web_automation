@@ -1,0 +1,439 @@
+﻿html,body,h1,h2,h3,p,div,ul,li,ol 
+{
+	margin:0px;
+	padding:0px;
+    font-family:'Cordia New',sans-serif;
+  
+}
+
+.allpagedefault
+{
+    width:100%;
+    background-color:#edefec;
+}
+
+
+
+
+/*-------------------------SLIDE-----------------------*/
+.topslide{width:100%;display:block;height:480px;height:35vw;}
+.allslidepic{width:100%;display:block;position:relative;}
+.slidepictop{width:100%;display:block;position:absolute;overflow:hidden;height:480px;height:35vw;}
+.slidepictop img{width:100%;height:35vw;}
+.poolpropword{width:50%;height:200px;position:absolute;z-index:5;left:25%;top:8vw;text-align:center;}
+.poolpropword a{text-decoration:none;}
+.lbpoolpropword1{color:white;font-size:90px;font-weight:bolder;display:block;margin-top:30px;}
+.lbpoolpropword2{color:white;font-size:32px;font-weight:bold;display:block;margin-top:-40px;}
+.darkcovertop{width:100%;height:472px;height:35vw;position:absolute;top:0;left:0;background-color:black;opacity:0.2;z-index:9;filter: alpha(opacity=10);}
+
+/*-------------------------SEARCH PROP-----------------------*/
+.boxseachprop{width:100%;height:110px;position:absolute;background-color:rgba(0, 0, 0, 0.6);
+              z-index:99;display:block;top:472px;top:35vw;margin-top:-110px;}
+.allsearchprop{width:74%;height:47px;background-color:transparent;position:relative;top:30px;left:13%;}
+
+
+.txtSearch{width:40.5%;height:45px;background-color:white;font-family:'Cordia New',sans-serif;font-size:24px;-webkit-appearance: none;
+             float:left;border:none;border-right:1px solid #c4c4c4;text-indent:15px;
+             -moz-appearance: none;-ms-appearance: none;-o-appearance: none;}
+
+.txtSearch::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #484848;
+}
+.txtSearch::-moz-placeholder { /* Firefox 19+ */
+  color: #484848;
+}
+.txtSearch:-ms-input-placeholder { /* IE 10+ */
+  color: #484848;
+}
+.txtSearch:-moz-placeholder { /* Firefox 18- */
+  color: #484848;
+}
+
+
+.DDLPurpose{width:18%;height:47px;background-color:white;font-family:'Cordia New',sans-serif;font-size:24px;-webkit-appearance: none;
+             padding:0 10px 0 17px;background-image:url('../Images/logo/down-arrow2.png');
+             background-repeat:no-repeat;background-position:90% 50%;float:left;border:none;
+             border-right:1px solid #c4c4c4;-moz-appearance: none;-ms-appearance: none;-o-appearance: none;}
+.DDLCategory{width:27%;height:47px;background-color:white;font-family:'Cordia New',sans-serif;font-size:24px;-webkit-appearance: none;
+             padding:0 10px 0 17px;background-image:url('../Images/logo/down-arrow2.png');
+             background-repeat:no-repeat;background-position:90% 50%;float:left;border:none;
+             -moz-appearance: none;-ms-appearance: none;-o-appearance: none;
+}
+.BTNSearchPropBig{width:14.2%;height:47px;background-color:#f99c1b;border:none;cursor:pointer;color:white;
+                  font-family:'Cordia New',sans-serif;font-size:25px;font-weight:bold;padding-top:2px;display:inline-block;}
+.BTNSearchPropBig:hover{background-color:#fab14c;}
+
+
+
+/*-------------------------TOP BANNER AD-----------------------*/
+.topbannerad{width:74%;margin:20px auto 0 auto;}/*width:945px;*/
+.topbannerad a{text-decoration:none;}
+.topbannerad a img{width:100%;}
+
+
+/*-------------------------POOLPROPFREELISTING-----------------------*/
+.poolpropfreelistingad{width:74%;height:0px;margin:10px auto;display:block;overflow:hidden;background-color:white;
+                       opacity:0;position:relative;margin-top:20px;}
+.imagefreelistingad{width:66%;height:340px;display:inline-block;position:relative;}
+.imagefreelistingad a {text-decoration:none;}
+.fadeimagefreelistingad{width:100%;display:block;position:absolute;overflow:hidden;height:340px;}
+.fadeimagefreelistingad img{width:100%;height:100%;}
+.infofreelisting{width:33.8%;float:right;display:block;position:relative;height:100%;}
+.topinfofreelisting{width:90%;height:90%;position:absolute;top:5%;right:5%;left:5%;bottom:5%;}
+.topicinfofreelisting{width:87%;height:auto;margin:18% auto 0 auto;}
+.lbtopicinfofreelisting{color:#484848;font-size:34px;font-weight:bolder;line-height:25px;}
+.wordinfofreelisting{width:87%;height:auto;margin:15px auto;}
+.lbwordinfofreelisting{color:#484848;font-size:22px;line-height:25px;}
+.btninfofreelisting{width:87%;height:auto;margin:30px auto 0 auto;}
+.btnfreelistingtop{border:none;width:100%;height:42px;background-color:#f99c1b;color:white;cursor:pointer;
+                   font-size:22px;font-family:'Cordia New',sans-serif;border-radius:2px;font-weight:bolder;}
+.btnfreelistingtop:hover{background-color:#fab14c;}
+.btnfreelistingtop:active{background-color:#e78803;}
+
+
+
+
+/*-------------------------NEW PROJECT CONDO-----------------------*/
+.allnewcondo{width:74%;margin:50px auto 0 auto;}
+.topicallnewcondo{width:100%;text-align:center;}
+.lbtopicallnewcondo{color:#484848;font-size:40px;font-weight:bolder;}
+.lbtopicallnewcondo2{color:#484848;font-size:23px;line-height:5%;position:relative;bottom:3px;}
+.btnmorenewcondo{width:100%;margin:40px auto 0 auto;text-align:center;}
+.btnmorenewcondoproject{min-width:33%;height:45px;background-color:#f99c1b;color:white;cursor:pointer;border:none;padding:0 10px;
+                        font-size:26px;font-family:'Cordia New',sans-serif;border-radius:2px;font-weight:bolder;}
+.btnmorenewcondoproject:hover{background-color:#fab14c;}
+.btnmorenewcondoproject:active{background-color:#e78803;}
+
+/*-------------------------EACH NEW PROJECT CONDO-----------------------*/
+.eachnewcondo{width:31.6%;display:inline-block;margin-top:2.5%;margin-right:2.5%;float:left;position:relative;}
+.eachnewcondo::before{content: "";display: block;padding-top: 110%;}
+.eachnewcondo a {text-decoration:none;}
+.eachnewcondo a:hover  .darkcover{opacity:0.4;}
+.imgnewcondo{width:100%;height:100%;position:absolute;top:0;left:0;overflow:hidden;}
+.imgnewcondo img{height:100%;position:relative;left:-45%;max-height:370px;}
+
+.imgnewcondo2{width:100%;height:100%;position:absolute;top:0;left:0;overflow:hidden;}
+.imgnewcondo2 img{width:100%;}
+
+
+
+
+
+.promotetag{height:35px;background-color:#f99c1b;position:absolute;top:25px;left:0px;z-index:99;color:#000;
+            font-size:23px;text-align:center;display:inline-block;padding:1px 10px;padding-top:5px;}
+
+.promotetag a{color:#000;text-decoration:none;}
+.promotetag a:hover{text-decoration:underline;}
+
+
+.darkcover{width:100%;height:100%;position:absolute;top:0;left:0;background-color:black;opacity:0.1;z-index:9;}
+.locationeachnewcondo{width:100%;position:absolute;top:38%;z-index:99;text-align:center;color:white;}
+.locationeachnewcondo1{font-size:56px;font-weight:bold;line-height:42px;}
+.locationeachnewcondo2{font-size:30px;}
+.priceeachnewcondo{width:100%;position:absolute;bottom:16%;z-index:99;height:42px;}
+.priceeachnewcondoword{display:inline-block;background-color:rgba(61, 60, 66, 0.9);height:42px;padding-left:10px;padding-right:15px;}
+.moneysigncondo{color:white; font-size:22px;font-weight:bold;display:inline-block;float:left;}
+.numbercondo{color:white; font-size:40px;float:left;line-height:120%;font-weight:bold;margin-left:-5px;}
+.accommoeachcondo{width:100%;position:absolute;bottom:1%;z-index:999;height:42px;}
+.bedcondo{width:32px;margin-left:12px;margin-top:5px;float:left;}
+.bedcondonumber{color:white;font-size:30px;float:left;margin-left:8px;line-height:120%;}
+.bathcondo{width:38px;margin-left:12px;float:left;margin-top:-1px;}
+.bathcondonumber{color:white;font-size:30px;float:left;margin-left:3px;line-height:120%;}
+
+
+
+
+/*-------------------------EACH NEW PROJECT CONDO2-----------------------*/
+.eachnewcondo2{width:31.6%;display:block;margin-top:2.5%;float:left;position:relative;}
+.eachnewcondo2::before{content: "";display: block;padding-top: 110%;}
+.eachnewcondo2 a {text-decoration:none;}
+.eachnewcondo2 a:hover  .darkcover{opacity:0.4;}
+.clear{clear:both;}
+
+
+
+
+
+/*-------------------------NEW PROJECT HOUSE-----------------------*/
+.allnewhouse{width:74%;margin:60px auto 0 auto;}
+.topicallnewhouse{width:100%;text-align:center;}
+.lbtopicallnewhouse{color:#484848;font-size:40px;font-weight:bolder;}
+.lbtopicallnewhouse2{color:#484848;font-size:23px;line-height:5%;position:relative;bottom:3px;}
+
+
+
+
+/*-------------------------EACH HOUSE PROJECT-----------------------*/
+.eachhouseproject{display:block;margin-top:10px;}
+.nameprovincehouseproject{width:100%;}
+.nameprovincehouse{color:#484848;font-size:45px;font-weight:bold;display:inline-block;}
+.nameprojecthouse{color:#757575;font-size:30px;font-weight:bold;float:right;display:inline-block;margin-top:12px;}
+.location-pin{width:20px;}
+
+.allbighouserec{width:100%;height:430px;height:31.5vw;}
+.imageslidesidehouseproject{width:65.5%;height:430px;height:100%;position:relative;display:block;float:left;}
+
+/*.allimageslidesidehouseproject{width:100%;height:100%;overflow:hidden;position:absolute;}
+.allimageslidesidehouseproject img{width:100%;height:100%;}*/
+
+.bedhouse{width:32px;margin-left:20px;margin-top:5px;float:left;}
+.bedhousenumber{color:white;font-size:30px;float:left;margin-left:8px;line-height:120%;}
+.bathhouse{width:38px;margin-left:12px;float:left;margin-top:-1px;}
+.bathhousenumber{color:white;font-size:30px;float:left;margin-left:3px;line-height:120%;}
+.camerahouse{width:23px;float:right;display:block;margin-right:8px;margin-top:4px;}
+
+
+/*.camerahousenumber{color:white;font-size:30px;float:right;margin-right:20px;line-height:120%;}
+.nextarrowslide{width:15%;height:100%;position:absolute;right:0;z-index:99;cursor:pointer;}
+.prevarrowslide{width:15%;height:100%;position:absolute;left:0;z-index:99;cursor:pointer;}
+.nextarrowslide img{width:90px;position:absolute;right:0;top:40%;z-index:99;opacity:0.4;}
+.prevarrowslide img{width:90px;position:absolute;left:0;top:40%;z-index:99;opacity:0.4;}
+.nextarrowslide:hover  img{opacity:1;}
+.prevarrowslide:hover  img{opacity:1;}*/
+
+
+.imageslidesidehouseproject a{text-decoration:none;}
+.gotonewhouse{width:50%;height:100%;position:absolute;left:25%;top:0;z-index:9999;}
+
+
+.infoslidesidehouseproject{width:34.5%;height:100%;position:relative;display:block;background-color:white;float:left;}
+.allinfonewhouse{width:88%;margin:10px auto;}
+.topicnewhouse{width:100%;color:#484848;font-size:24px;font-weight:bold;line-height:25px;}
+.locatenewhouse{width:100%;color:#939393;font-size:18px;margin-top:-3px;}
+.descnewhouse{width:100%;color:#484848;font-size:20px; line-height:120%;margin-top:7px;}
+.pricenewhouse{height:28px;background-color:#484848;display:inline-block;color:white;font-size:23px;padding:3px;
+               padding-left:10px;padding-right:10px;margin-top:5px;}
+
+#mapnewhouseBKK{width:88%;height:40%;position:absolute;bottom:15px;}
+#mapnewhouseCNX{width:88%;height:40%;position:absolute;bottom:15px;}
+#mapnewhouseCBI{width:88%;height:40%;position:absolute;bottom:15px;}
+#mapnewhousePKT{width:88%;height:40%;position:absolute;bottom:15px;}
+#mapnewhousePKN{width:88%;height:40%;position:absolute;bottom:15px;}
+#mapnewhouseOTHER{width:88%;height:40%;position:absolute;bottom:15px;}
+
+.topicnewhouse a{text-decoration:none;color:#484848;font-size:24px;font-weight:bold;}
+.topicnewhouse a:hover{text-decoration:underline;}
+.topicnewhouse a:active{text-decoration:underline;color:#fab14c;}
+
+
+/*-------------------------ANOTHER HOUSE PROJECT-----------------------*/
+.anothernewhouse{width:100%;margin-top:25px;color:#484848;font-size:28px;font-weight:bold;display:block;}
+
+.eachanoternewhouse{width:31.6%;display:block;margin-top:3px;float:left;margin-right:2.5%;}
+.allimganothernewhouse{width:100%;height:210px;height:15.5vw;position:relative;}
+
+/*.imganothernewhouse1{width:100%;height:100%;overflow:hidden;position:absolute;top:0;}
+.imganothernewhouse1 img{width:100%;height:100%;}
+.nextarrowslideanother1{width:15%;height:100%;position:absolute;right:0;z-index:99;cursor:pointer}
+.nextarrowslideanother1 img{width:60px;position:absolute;right:0;top:35%;z-index:99;opacity:0}
+.prevarrowslidanothere1{width:15%;height:100%;position:absolute;left:0;z-index:99;cursor:pointer;}
+.prevarrowslidanothere1 img{width:60px;position:absolute;left:0;top:35%;z-index:99;opacity:0;}
+.allimganothernewhouse:hover .prevarrowslidanothere1 img {opacity:1;}
+.allimganothernewhouse:hover .nextarrowslideanother1 img {opacity:1;}*/
+.topiceachanotherhouse{line-height:22px;padding-top:10px;}
+.priceeachanotherhouse{width:100%;position:absolute;bottom:13%;z-index:99;height:42px;}
+.topiceachanotherhouse a{font-size:22px;color:#484848;font-weight:bold;margin-top:15px;text-decoration:none;}
+.locateeachanotherhouse{font-size:20px;color:#90949c;margin-top:-5px;}
+.topiceachanotherhouse a:hover{text-decoration:underline;}
+
+.spacenewhousebot{width:100%;height:30px;display:block;}
+
+/*.imganothernewhouse2{width:100%;height:100%;overflow:hidden;position:absolute;top:0;}
+.imganothernewhouse2 img{width:100%;height:100%;}
+.nextarrowslideanother2{width:15%;height:100%;position:absolute;right:0;z-index:99;cursor:pointer}
+.nextarrowslideanother2 img{width:60px;position:absolute;right:0;top:35%;z-index:99;opacity:0}
+.prevarrowslidanothere2{width:15%;height:100%;position:absolute;left:0;z-index:99;cursor:pointer;}
+.prevarrowslidanothere2 img{width:60px;position:absolute;left:0;top:35%;z-index:99;opacity:0;}
+.allimganothernewhouse:hover .prevarrowslidanothere2 img {opacity:1;}
+.allimganothernewhouse:hover .nextarrowslideanother2 img {opacity:1;}*/
+
+
+.eachanoternewhouse2{width:31.6%;display:block;margin-top:3px;float:left;}
+/*.imganothernewhouse3{width:100%;height:100%;overflow:hidden;position:absolute;top:0;}
+.imganothernewhouse3 img{width:100%;height:100%;}
+.nextarrowslideanother3{width:15%;height:100%;position:absolute;right:0;z-index:99;cursor:pointer}
+.nextarrowslideanother3 img{width:60px;position:absolute;right:0;top:35%;z-index:99;opacity:0}
+.prevarrowslidanothere3{width:15%;height:100%;position:absolute;left:0;z-index:99;cursor:pointer;}
+.prevarrowslidanothere3 img{width:60px;position:absolute;left:0;top:35%;z-index:99;opacity:0;}
+.allimganothernewhouse:hover .prevarrowslidanothere3 img {opacity:1;}
+.allimganothernewhouse:hover .nextarrowslideanother3 img {opacity:1;}*/
+
+.btnmorenewhouseproject{width:36%;height:38px;background-color:#f99c1b;color:white;cursor:pointer;text-align:center;
+                        margin:0 auto;padding:7px 10px 0px 10px;
+                        font-size:24px;font-family:'Cordia New',sans-serif;border-radius:2px;font-weight:bolder;}
+
+.btnmorenewhouseproject:hover{background-color:#fab14c;}
+.btnmorenewhouseproject:active{background-color:#e78803;}
+
+.btnmorenewhouse {width:100%;text-align:center;}
+.btnmorenewhouse a{text-decoration:none;}
+
+.btnmorenewhouse{width:100%;margin:30px auto 0 auto;text-align:center;}
+.spacenewhouse{width:100%;height:30px;display:block;border-bottom:1px solid #939393;margin-bottom:20px;}
+
+
+
+/*-------------------------REC PROP-----------------------*/
+.allrecprop{width:74%;margin:60px auto 0 auto;margin-top:70px;}
+.propside{width:65%;float:left;}
+
+ul.tab-links{width:100%;display:inline-block;border-bottom:2px solid #3ea4ee;}
+.tabs {width:100%;display:inline-block;}
+.tab-links:after {display:block;clear:both; content:'';}
+.tab-links li {float:left;list-style:none;}
+.tab-links a {padding:0px 30px;display:inline-block;font-size:30px;font-weight:bold;color:#484848;text-decoration:none;
+              transition:all linear 0.15s;}
+.tab-links a:hover {background:#a7cce5;text-decoration:none;}
+li.active a, li.active a:hover {background:#3ea4ee;color:white;}
+.tab {display:none;}
+.tab.active {display:block;}
+
+
+.eachprop{width:100%;display:inline-block;height:235px;height:17.3vw;margin-top:15px;position:relative;border:1px solid lightgray;
+          box-shadow: 0px 5px 8px -2px  #888888;}
+.eachprop a{text-decoration:none;}
+.eachprop:hover .pricefeatprop{background-color:#484848;color:white;}
+.imgfeatprop{width:50%;height:100%;}
+.infofeatpropside{width:50%;position:absolute;right:0;height:100%;top:0;background-color:white;}
+.allinfofeatprop{width:90%;height:90%;margin:10px auto;position:relative;top:5%;}
+.topicfeatprop  a{font-size:30px;color:#484848;font-weight:bold;text-decoration:none;line-height:110%;}
+.topicfeatprop a:hover {text-decoration:underline;}
+.typecustomchoose1{font-size:20px;color:white;background:green;padding:0px 5px;line-height:110%;
+                  height:20px;display:inline-block;width:50px;text-align:center;}
+.typecustomchoose2{font-size:20px;color:white;background:#0080ff;padding:0px 5px;line-height:110%;
+                   height:20px;display:inline-block;width:50px;text-align:center;}
+.typecustomchoose3{font-size:20px;color:white;background:#f99c1b;padding:0px 5px;line-height:110%;
+                   height:20px;display:inline-block;width:63px;text-align:center;}
+.typecustomchoose4{font-size:20px;color:white;background:red;padding:0px 5px;line-height:110%;
+                   height:20px;display:inline-block;width:63px;text-align:center;}
+
+.locatefeatprop{font-size:20px;color:#939393;line-height:110%;}
+.accommofeatprop{width:99%;border-bottom:1px solid;position:relative;margin-top:15px;}/*bottom:23%;*/
+
+/*.numberpropaccom{font-size:26px;color:#484848;display:inline-block;margin-left:5px;position:relative;top:-3px;font-weight:bold;float:left;}
+.numberpropaccom2{font-size:26px;color:#484848;display:inline-block;margin-left:2px;position:relative;top:-3px;font-weight:bold;float:left;}*/
+
+/*.bedfeatprop{width:30px;display:inline-block;float:left;}*/
+/*.bathfeatprop{width:33px;display:inline-block;float:left;margin-left:15px;position:relative;top:-4px;}*/
+
+.bedfeatprop{width:22px;display:inline-block;float:left;position:relative;top:4px;}
+.bathfeatprop{width:25px;display:inline-block;float:left;margin-left:10px;position:relative;}
+.numberpropaccom{font-size:22px;color:#484848;display:inline-block;margin-left:5px;position:relative;font-weight:bold;float:left;}
+.numberpropaccom2{font-size:22px;color:#484848;display:inline-block;margin-left:2px;position:relative;font-weight:bold;float:left;}
+.codefeat{font-size:22px;color:#484848;display:inline-block;margin-left:15px;position:relative;top:-3px;float:left;}
+
+
+
+
+/*.codefeat{font-size:24px;color:#484848;display:inline-block;margin-left:22px;position:relative;top:-4px;float:left;}*/
+.pricefeatprop{height:28px;display:inline-block;color:#484848;font-size:23px;padding:3px;margin-top:10px;
+               padding-left:10px;padding-right:10px;border:1px solid;}
+
+.btnmorefeatprop{min-width:40%;height:45px;background-color:#f99c1b;color:white;cursor:pointer;border:none;
+                        font-size:26px;font-family:'Cordia New',sans-serif;border-radius:2px;font-weight:bolder;padding:0 10px;}
+.btnmorefeatprop:hover{background-color:#fab14c;}
+.btnmorefeatprop:active{background-color:#e78803;}
+
+/*------------------------Article-----------------------*/
+.newsandviewside{width:30%;float:right;margin-bottom:30px;}
+.topicnews{width:100%;display:inline-block;border-bottom:2px solid #3ea4ee;margin-top:2px;margin-bottom:2%;}
+.lbreview{padding:0px 30px;display:inline-block;font-size:28px;font-weight:bold;color:white;text-decoration:none;
+          background:#3ea4ee;padding-top:1px;}
+.lbreview:hover{background-color:#a7cce5;color:#484848;}
+.eacharticle{width:100%;margin-top:20px;position:relative;}
+.eacharticle:hover .topiceacharticle{color:#3ea4ee;}
+.eacharticle a{text-decoration:none;}
+.imgarticle{width:30%;height:68px;height:5vw;float:left;}
+.topiceacharticle{font-size:18px;color:#484848;width:65%;float:right;line-height:110%;margin-top:4px;}
+.datepostarticle{font-size:18px;color:#939393;width:65%;float:right;}
+
+.adarticle{width:100%;margin-top:15px;}
+.adarticle a{text-decoration:none;}
+.adarticle img{width:85%;}
+
+.lbreview2{padding:0px 30px;display:inline-block;font-size:28px;font-weight:bold;color:white;text-decoration:none;background:#3ea4ee;}
+.lbreview2:hover{background-color:#a7cce5;color:#484848;}
+#iframeReview{height:200px;height:15vw;width:100%;}
+#iframeReview2{height:200px;height:15vw;width:100%;}
+
+
+/*------------------------Explore IN THAILAND-----------------------*/
+.allexplore{width:74%;margin:60px auto 0px auto;}
+.alllocateexplore{width:100%;margin-top:10px;}
+.alllocateexplore a{text-decoration:none;} 
+
+.eachlocateexplore{width:65.7%;height:350px;height:25.5vw;position:relative;float:left;margin-right:2.5%;margin-top:2.5%;}
+.imglocateexplore{width:100%;height:100%;max-height:350px;}
+.locateexplorelb{color:white;position:absolute;z-index:9;font-size:50px;font-weight:bold;
+                 width:100%;text-align:center;top:42%;left:0;border-top:1px solid;border-bottom:1px solid;}
+
+.eachlocateexplore2{width:31.6%;height:25.5vw;position:relative;float:left;margin-top:2.5%;}
+.eachlocateexplore3{width:31.6%;height:25.5vw;position:relative;float:left;margin-left:2.5%;margin-top:2.5%;}
+.eachlocateexplore4{width:65.7%;height:25.5vw;position:relative;float:left;margin-left:2.5%;margin-top:2.5%;}
+
+
+
+
+.spcaelocateexplore{width:100%;height:50px;}
+
+
+.expiredpost{display:none;background: #fff;padding: 30px;float: left;font-size: 1.2em;
+	position: fixed;width:700px;width:40vw;height:auto;top: 40%; left: 50%;z-index: 99999999;	
+	border-radius:3px;-moz-border-radius: 3px; /* Firefox */-webkit-border-radius: 3px; /* Safari, Chrome */}
+.allexpiredtext{width:90%;min-height:60px;margin:10px auto;font-size:23px;color:#484848;}
+.allexpiredtext a{color:#0080ff;}
+.allexpiredtext a:hover{text-decoration:underline;}
+.titleexpiredpost{width:90%;color:#f99c1b;font-size:35px;margin:20px auto 0 auto;font-weight:bold;text-decoration:underline;text-align:center;}
+.canelbtnmaskexpired{position:fixed;top:10%;right:24%;font-size:60px;width:25px;height:25px;z-index:999999999;
+                   text-align:center;color:#fff;line-height:38px;font-weight:bold;cursor:pointer;}
+
+
+
+
+.lbtitlefeaturedpost{text-align:center;color:#484848;font-size:35px;font-weight:bolder;}
+.lbtitlefeaturedpost2{color:#484848;font-size:22px;display:block;}
+.spacefeat{width:100%;height:40px;display:block;border-top:1px solid #fff;margin-top:40px;}
+
+
+
+/*------------------------Ipad-----------------------*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{
+    .topbannerad{width:730px;height:80px;margin:30px auto 0 auto;}/*width:945px;*/
+    .topbannerad a{text-decoration:none;}
+    .topbannerad a img{width:730px;height:80px;}
+
+    .topicfeatprop  a{font-size:22px;line-height:16px;}
+    .locatefeatprop{font-size:18px;}
+    .accommofeatprop{width:92%;border-bottom:1px solid;position:absolute;margin-top:3px;}
+    .bedfeatprop{width:22px;display:inline-block;float:left;}
+    .numberpropaccom{font-size:20px;}
+    .numberpropaccom2{font-size:20px;}
+    .bathfeatprop{width:24px;display:inline-block;float:left;margin-left:5px;position:relative;}
+
+    .codefeat{font-size:20px;position:absolute;right:0px;top:0px;}
+ 
+    .pricefeatprop{height:18px;font-size:18px;margin-top:35px;border:none;height:22px;
+                   padding-left:8px;padding-right:8px;background-color:#484848;color:white}
+    
+    .topicnewhouse a{font-size:18px;}
+    .locatenewhouse{font-size:16px;}
+    .descnewhouse{font-size:16px;}
+    .pricenewhouse{height:20px;background-color:#484848;display:inline-block;color:white;font-size:20px;
+               padding-left:10px;padding-right:10px;margin-top:5px;}
+    .topiceacharticle{font-size:16px;line-height:100%;}
+    .datepostarticle{font-size:16px;position:absolute;right:0;top:70%;}
+    .locationeachnewcondo1{font-size:45px;}
+    .locationeachnewcondo2{font-size:26px;}
+    .priceeachnewcondoword{display:inline-block;background-color:rgba(61, 60, 66, 0.9);height:35px;padding-left:10px;padding-right:15px;}
+    .numbercondo{color:white; font-size:32px;float:left;line-height:120%;font-weight:bold;margin-left:-5px;}
+
+
+    .topicnewhouse{width:100%;color:#484848;font-size:24px;font-weight:bold;line-height:15px;}
+    .btnmorenewhouseproject{width:45%;}
+    .btnmorenewcondoproject{min-width:45%;}
+    .btnmorefeatprop{min-width:50%;}
+    .BTNSearchPropBig{width:14.3%;}
+}
